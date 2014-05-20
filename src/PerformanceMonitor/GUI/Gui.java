@@ -95,7 +95,7 @@ public class Gui extends JFrame {
 		//mainPanel.add(performanceCounterChooser);		
 	
 		/* Panel Initializing */
-		
+		setBounds(600, 200, 850, 750);
 		menuPanel = new JPanel();	
 		ResultTabs = new JTabbedPane();
 		comboBoxPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
